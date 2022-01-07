@@ -1,3 +1,3 @@
-module github.com/randall77/factorlib
+module github.com/cfschilham/factorlib
 
 go 1.13
