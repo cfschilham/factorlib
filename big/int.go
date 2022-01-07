@@ -239,6 +239,10 @@ func (x Int) Rand(rnd *rand.Rand) Int {
 	return Int{new(big.Int).Rand(rnd, x.v)}
 }
 
+func (x Int) Underlying() *big.Int {
+	return x.v
+}
+
 // Optimized routines
 
 // Scratch space for use by Mod64s.
