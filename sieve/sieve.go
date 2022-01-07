@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"unsafe"
 
-	"github.com/randall77/factorlib/big"
-	fmath "github.com/randall77/factorlib/math"
+	"github.com/cfschilham/factorlib/big"
+	fmath "github.com/cfschilham/factorlib/math"
 )
 
 // use an array of this size to do the sieving

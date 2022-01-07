@@ -3,7 +3,7 @@ package ecm
 import (
 	"testing"
 
-	"github.com/randall77/factorlib/big"
+	"github.com/cfschilham/factorlib/big"
 )
 
 func TestElliptic(t *testing.T) {

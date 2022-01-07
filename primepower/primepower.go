@@ -5,8 +5,8 @@ import (
 	"log"
 	"math/rand"
 
-	"github.com/randall77/factorlib/big"
-	"github.com/randall77/factorlib/primes"
+	"github.com/cfschilham/factorlib/big"
+	"github.com/cfschilham/factorlib/primes"
 )
 
 // If n is a prime power, factor n.  Otherwise, return nil and an error.

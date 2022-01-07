@@ -4,9 +4,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/randall77/factorlib/big"
-	"github.com/randall77/factorlib/math"
-	"github.com/randall77/factorlib/primes"
+	"github.com/cfschilham/factorlib/big"
+	"github.com/cfschilham/factorlib/math"
+	"github.com/cfschilham/factorlib/primes"
 )
 
 func TestSieve(t *testing.T) {
@@ -30,7 +30,7 @@ func TestSieve(t *testing.T) {
 		}
 	}
 
-	results := Smooth(a, b, c, fb, x0, x1, rnd)
+	results, _ := Smooth(a, b, c, fb, x0, x1, rnd)
 
 	if len(results) == 0 {
 		t.Errorf("no results for a=%d b=%d c=%d", a, b, c)

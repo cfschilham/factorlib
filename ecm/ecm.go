@@ -4,9 +4,9 @@ import (
 	"log"
 	"math/rand"
 
-	"github.com/randall77/factorlib/big"
-	"github.com/randall77/factorlib/primepower"
-	"github.com/randall77/factorlib/primes"
+	"github.com/cfschilham/factorlib/big"
+	"github.com/cfschilham/factorlib/primepower"
+	"github.com/cfschilham/factorlib/primes"
 )
 
 // see http://en.wikipedia.org/wiki/Lenstra_elliptic_curve_factorization

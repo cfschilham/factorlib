@@ -9,8 +9,8 @@ import (
 	"runtime/pprof"
 	"strconv"
 
-	"github.com/randall77/factorlib"
-	"github.com/randall77/factorlib/big"
+	"github.com/cfschilham/factorlib"
+	"github.com/cfschilham/factorlib/big"
 )
 
 var seed = flag.Int64("seed", 0, "seed for RNG")

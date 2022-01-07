@@ -7,12 +7,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/randall77/factorlib/big"
-	"github.com/randall77/factorlib/ecm"
-	"github.com/randall77/factorlib/mpqs"
-	"github.com/randall77/factorlib/primepower"
-	"github.com/randall77/factorlib/qs"
-	"github.com/randall77/factorlib/trial"
+	"github.com/cfschilham/factorlib/big"
+	"github.com/cfschilham/factorlib/ecm"
+	"github.com/cfschilham/factorlib/mpqs"
+	"github.com/cfschilham/factorlib/primepower"
+	"github.com/cfschilham/factorlib/qs"
+	"github.com/cfschilham/factorlib/trial"
 )
 
 // Set of factoring algorithms to choose from.

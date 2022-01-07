@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/randall77/factorlib/big"
+	"github.com/cfschilham/factorlib/big"
 )
 
 // generic math routines

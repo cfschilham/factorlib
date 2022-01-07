@@ -4,12 +4,12 @@ import (
 	"log"
 	"math/rand"
 
-	"github.com/randall77/factorlib/big"
-	"github.com/randall77/factorlib/linear"
-	"github.com/randall77/factorlib/math"
-	"github.com/randall77/factorlib/primepower"
-	"github.com/randall77/factorlib/primes"
-	"github.com/randall77/factorlib/sieve"
+	"github.com/cfschilham/factorlib/big"
+	"github.com/cfschilham/factorlib/linear"
+	"github.com/cfschilham/factorlib/math"
+	"github.com/cfschilham/factorlib/primepower"
+	"github.com/cfschilham/factorlib/primes"
+	"github.com/cfschilham/factorlib/sieve"
 )
 
 // The quadratic sieve is a general purpose factoring algorithm.

@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/randall77/factorlib/big"
-	"github.com/randall77/factorlib/primes"
+	"github.com/cfschilham/factorlib/big"
+	"github.com/cfschilham/factorlib/primes"
 )
 
 func TestGCD(t *testing.T) {
